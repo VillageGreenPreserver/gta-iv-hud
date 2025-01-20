@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+    "$basetexture"  "vgui/replay/thumbnails/health/health"
+    "$translucent"  1
+    "$vertexcolor"  1
+    "$vertexalpha"  1
+    "$color"        "{75 143 162}"
+    "$basetexturetransform"     "center .5 .5 scale 1 1 rotate 180 translate 0 0"
+}
