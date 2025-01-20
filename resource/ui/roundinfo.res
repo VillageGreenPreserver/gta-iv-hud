@@ -4,11 +4,11 @@
 	{
 		"ControlName"			"Frame"
 		"fieldName"				"roundinfo"
-		"xpos"					"14"
-		"ypos"					"180"
+		"xpos"					"50"
+		"ypos"					"rs1-30"
 		"zpos"					"-999999"
-		"wide"					"90"
-		"tall"					"90"
+		"wide"					"84"
+		"tall"					"84"
 		"visible"				"0"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
@@ -30,14 +30,31 @@
 		"proportionaltoparent"	"1"
 	}
 	
-	"MapImage"
+	"circle_small"
 	{
-		"ControlName"			"ImagePanel"
-		"zpos"					"0"
+		"controlName"			"ImagePanel"
+		"zpos"					"1"
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"f0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/health/circle_hollow"
+		"scaleImage"			"1"
+		"proportionaltoparent"	"1"
+
+		"drawcolor"				"0 0 0 255"
+	}
+	
+	"MapImage"
+	{
+		"ControlName"			"ImagePanel"
+		"zpos"					"0"
+		"xpos"					"cs-0.5"
+		"ypos"					"cs-0.5"
+		"wide"					"f1"
+		"tall"					"f1"
 		"visible"				"1"
 		"scaleImage"			"1"
 		"proportionaltoparent"	"1"

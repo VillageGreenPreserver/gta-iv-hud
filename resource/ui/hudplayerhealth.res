@@ -19,9 +19,9 @@
 	"radar_BG"
 	{
 		"controlName"		"ImagePanel"
-		"zpos"				"-102"
 		"xpos"				"45"
 		"ypos"				"rs1-25"
+		"zpos"				"-102"
 		"wide"				"94"
 		"tall"				"94"
 		"visible"			"1"
@@ -30,6 +30,22 @@
 		"scaleImage"		"1"
 
 		"drawcolor"			"0 0 0 200"
+	}
+
+	"circle_big"
+	{
+		"controlName"		"ImagePanel"
+		"xpos"				"44"
+		"ypos"				"rs1-24"
+		"zpos"				"-101"
+		"wide"				"96"
+		"tall"				"96"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/health/circle_hollow"
+		"scaleImage"		"1"
+
+		"drawcolor"			"0 0 0 255"
 	}
 
 	"Pin-480"
@@ -313,71 +329,50 @@
 
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"PlayerStatusHealthImage"
-		"xpos"				"r0"
-		"ypos"				"r85"
-		"zpos"				"4"
-		"wide"				"51"
-		"tall"				"51"
-		"visible"			"1"
-		"scaleImage"		"1"
+		"visible"			"0"
 	}
+
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"PlayerStatusHealthImageBG"
-		"xpos"				"r0"
-		"ypos"				"r87"
-		"zpos"				"3"
-		"wide"				"55"
-		"tall"				"55"
-		"visible"			"1"
-		"image"				"../hud/health_bg"
-		"scaleImage"		"1"
+		"visible"			"0"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"PlayerStatusHealthBonusImage"
-		"xpos"				"r0"
-		"ypos"				"r87"
-		"zpos"				"2"
-		"wide"				"55"
-		"tall"				"55"
 		"visible"			"0"
-		"image"				"../hud/health_over_bg"
-		"scaleImage"		"1"
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayerStatusHealthValue"
-		"xpos"				"r0"
-		"ypos"				"r68"
+		"xpos"				"45"
+		"ypos"				"rs1-119"
 		"zpos"				"5"
-		"wide"				"50"
-		"tall"				"18"
+		"wide"				"94"
+		"tall"				"20"
 		"visible"			"1"
 		"labelText"			"%Health%"
 		"textAlignment"		"center"
-		"font"				"HudClassHealth"
-		"fgcolor"			"TanDark"
+		"font"				"Pricedown18"
+		"fgcolor"			"255 255 255 255"
+	}
+	"PlayerStatusHealthValue2"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"PlayerStatusHealthValue"
+		"xpos"				"45"
+		"ypos"				"rs1-119"
+		"zpos"				"5"
+		"wide"				"94"
+		"tall"				"20"
+		"visible"			"1"
+		"labelText"			"%Health%"
+		"textAlignment"		"center"
+		"font"				"Pricedown18-O"
+		"fgcolor"			"0 0 0 255"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"PlayerStatusMaxHealthValue"
-		"xpos"				"r0"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"18"
-		"visible"			"1"
-		"labelText"			"%MaxHealth%"
-		"textAlignment"		"center"
-		"font"				"DefaultSmall"
-		"fgcolor"			"TanDark"
+		"visible"			"0"
 	}
 	"PlayerStatusBleedImage"
 	{
