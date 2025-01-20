@@ -26,7 +26,7 @@
 		"tall"				"94"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/radar/circ"
+		"image"				"replay/thumbnails/health/circle"
 		"scaleImage"		"1"
 
 		"drawcolor"			"0 0 0 200"
