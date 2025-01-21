@@ -2708,5 +2708,6 @@ Scheme
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		"18"		"resource/fonts/PricedownVgp.ttf"
 		"19"		"resource/fonts/PricedownVgp-Outline.ttf"
+		"20"		"resource/fonts/HelveticaNeue Heavy.ttf"
 	}
 }
