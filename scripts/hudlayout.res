@@ -484,11 +484,13 @@
 
 	HudCrosshair
 	{
-		"fieldName" "HudCrosshair"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"fieldName" 	"HudCrosshair"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"p0.5-45"
+		"ypos"			"p-0.5+45"
+		"wide"			"640"
+		"tall"			"480"
 	}
 
 	HudDeathNotice

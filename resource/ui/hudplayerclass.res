@@ -1,5 +1,17 @@
 "Resource/UI/HudPlayerClass.res"
 {
+
+	"Xhair"
+	{
+		"ControlName"			"ImagePanel"
+		"xpos"					"cs-0.5"
+		"ypos"					"cs-0.5"
+		"wide"					"4"
+		"tall"					"4"
+		"image"					"replay/thumbnails/radar/blip"
+		"scaleImage"			"1"
+	}
+
 	// player class data
 	"HudPlayerClass"
 	{

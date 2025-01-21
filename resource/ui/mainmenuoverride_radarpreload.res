@@ -90,5 +90,11 @@
 			"image"			"../overviews/cp_steel"
 		}
 		
+		"pl_badwater"
+		{
+			"ControlName"	"ImagePanel"
+			"image"			"../overviews/pl_badwater"
+		}
+		
 	}
 }
