@@ -1,8 +1,14 @@
 event CompetitiveGame_LowerChatWindow
 {
-	StopEvent	Radar		0.0
-	StopEvent	RadarLoop	0.0
-	SetVisible	roundinfo	0		0.05
+	StopEvent		Radar							0.0
+	StopEvent		RadarLoop						0.0
+	SetVisible		roundinfo						0			0.05
+	RunEventChild	MMDashBoardPopupContainer		DashTest	0.0
+}
+
+event DashTest
+{
+	// Animate		MMDashBoard		xpos		"100"		Linear		0.0		0.0
 }
 
 event CompetitiveGame_RestoreChatWindow

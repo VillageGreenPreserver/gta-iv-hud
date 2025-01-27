@@ -1,0 +1,19 @@
+event Test
+{
+	RunEventChild	MainMenuOverride	Test2	0.02
+}
+
+event Test2
+{
+	Animate		mmdashboard		xpos	"500"		Linear		0.0		0.1
+}
+
+event invtest
+{
+	RunEventChild		character_info		invtest2		0.02
+}
+
+event invtest2
+{
+	Animate		TestButton		ypos	"40"		Linear		0.0		0.1
+}

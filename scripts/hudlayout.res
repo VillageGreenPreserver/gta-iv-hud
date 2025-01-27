@@ -1,5 +1,18 @@
 "Resource/HudLayout.res"
 {
+	"MainMenuOverride"
+	{
+		// "wide"	"600"
+	}
+
+	"MMDashBoardPopupContainer"
+	{
+		"xpos"		"0"
+		"ypos"		"400"
+		"wide"		"f0"
+		"tall"		"480"
+	}
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

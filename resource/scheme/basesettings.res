@@ -78,6 +78,7 @@ Scheme
 		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledTextColor	"Orange"
 		FrameTitleBar.DisabledBgColor	"Blank"
+		FrameTitleBar.Font				"FrameTitle"
 
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"

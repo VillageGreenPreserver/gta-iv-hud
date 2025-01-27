@@ -1,0 +1,29 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/gta/test"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$vertexalpha"	"1"
+
+	"$alphatesting"	"1.0"
+	"$alpha"		"0.0"
+
+	"$rate"			"0.01"
+	"$init"			"0.0"
+
+	Proxies
+	{
+		LinearRamp
+		{
+			"rate"				"$rate"
+			"initialValue"		"$init"
+			"resultVar"			"$alphatesting"
+		}
+
+		Equals
+		{
+			"srcVar1"		"$alphatesting"
+			"resultVar"		"$alpha"
+		}
+	}
+}

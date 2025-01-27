@@ -11,6 +11,9 @@
 		"wide"					"f0"
 		"tall"					"50"
 		"keyboardinputenabled"	"0"
+		
+		"pin_to_sibling"		"DashPin"
+		"pin_to_sibling_corner"	"3"
 
 		"collapsed_height"	"0"
 		"expanded_height"	"50"
@@ -35,7 +38,7 @@
 		"paintbackground"			"0"
 		"auto_wide_tocontents"		"1"
 
-		"armedfgcolor_override"		"240 160 0 255"
+		"armedfgcolor_override"		"gta4-orange"
 		"defaultfgcolor_override"	"gta4-gray"
 
 		"sound_depressed"			"UI/buttonclick.wav"

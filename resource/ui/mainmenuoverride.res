@@ -1368,6 +1368,20 @@
 		"visible"		"0"
 	}	
 
+	"con"
+	{
+		"ControlName"	"Button"
+		"command"		"engine toggleconsole"
+		"labelText"		"c"
+	}
+	"rel"
+	{
+		"ControlName"	"Button"
+		"ypos"			"10"
+		"command"		"engine hud"
+		"labelText"		"r"
+	}
+
 	"DashPin"
 	{
 		"ControlName"			"Panel"
@@ -1375,7 +1389,6 @@
 		"tall"					"0"
 		"ypos"					"r50"
 	}
-
 	"MMDashboard"
 	{
 		"pin_to_sibling"		"DashPin"
@@ -1424,7 +1437,7 @@
 		"paintbackground"			"0"
 		"auto_wide_tocontents"		"1"
 
-		"armedfgcolor_override"		"240 160 0 255"
+		"armedfgcolor_override"		"gta4-orange"
 		"defaultfgcolor_override"	"gta4-gray"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -1436,18 +1449,8 @@
 
 	"StoreHasNewItemsImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-85"
-		"ypos"			"r50"
-		"zpos"			"13"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../vgui/new"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
+		"xpos"			"r0"
+		"wide"			"0"
 	}
 
 	"GeneralStoreButton"
@@ -1616,7 +1619,7 @@
 		"paintbackground"			"0"
 		"auto_wide_tocontents"		"1"
 
-		"armedfgcolor_override"		"240 160 0 255"
+		"armedfgcolor_override"		"gta4-orange"
 		"defaultfgcolor_override"	"gta4-gray"
 
 		"sound_depressed"			"UI/buttonclick.wav"

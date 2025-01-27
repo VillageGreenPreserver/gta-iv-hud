@@ -11,6 +11,16 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+
+		"FrameTitle"
+		{
+			"1"
+			{
+				"name"		"Blank"
+				"tall"		"0"
+			}
+		}
+
 		"Default"
 		{
 			"1"
@@ -2709,5 +2719,7 @@ Scheme
 		"18"		"resource/fonts/PricedownVgp.ttf"
 		"19"		"resource/fonts/PricedownVgp-Outline.ttf"
 		"20"		"resource/fonts/HelveticaNeue Heavy.ttf"
+		"21"		"resource/fonts/ItemIcons.ttf"
+		"22"		"resource/fonts/bahnschrift.ttf"
 	}
 }
